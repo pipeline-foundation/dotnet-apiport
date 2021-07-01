@@ -19,7 +19,7 @@
 		"vscode-icons-team.vscode-icons",
 		"editorconfig.editorconfig"
 	],
-	"postCreateCommand": "./init.ps1",
+	"postCreateCommand": "",
 }
 
 // Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
