@@ -1,5 +1,6 @@
 {
-	"name": " Codespace",
+	"name": "dotnet-apiport Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/dotnet:0.201.7-5.0",
 	"settings": {
 		"workbench.colorTheme": "Default Dark+",
 		"terminal.integrated.defaultProfile.linux": "pwsh"
@@ -18,10 +19,7 @@
 		"vscode-icons-team.vscode-icons",
 		"editorconfig.editorconfig"
 	],
-	"postCreateCommand": "",
-	"build": {
-		"dockerfile": "Dockerfile"
-	}
+	"postCreateCommand": "./init.ps1",
 }
 
 // Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
